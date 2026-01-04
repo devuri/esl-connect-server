@@ -5,6 +5,14 @@ All notable changes to ESL Connect Server will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [0.1.2](https://github.com/devuri/esl-connect-server/compare/0.1.1...0.1.2) (2026-01-04)
+
+
+### Features
+
+* init esl-connect-server ([6f3affc](https://github.com/devuri/esl-connect-server/commit/6f3affc64078ce38dca317503f5365360de918ea))
+* init esl-connect-server ([d4f69f3](https://github.com/devuri/esl-connect-server/commit/d4f69f3e05782744e70fa8f8b5b90f1f68fcef9e))
+
 ## [0.1.0] - 2026-01-04
 
 ### Added
