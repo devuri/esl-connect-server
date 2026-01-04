@@ -1,0 +1,16 @@
+composer.phar
+composer.lock
+.phpunit.cache
+.phpunit.result.cache
+/vendor
+/coverage-report
+/tmp
+/.github
+/.idea
+/.phpdoc/cache
+
+## PLUGIN FILES
+build/svn/
+build/trunk/
+trunk/
+*.zip
