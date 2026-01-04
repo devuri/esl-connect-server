@@ -1,8 +1,8 @@
 {
-    "name": "devuri/wp-basic-plugin",
+    "name": "devuri/wp-esl-connect-server",
     "type": "wordpress-plugin",
     "license": "GPL-2.0-only",
-    "description": "Plugin File",
+    "description": "Server-side plan enforcement for Easy Software License",
     "authors": [
         {
             "name": "Uriel",
@@ -28,7 +28,7 @@
     },
 	"autoload": {
         "psr-4": {
-            "BasicPlugin\\": "src/"
+            "EslConnectServer\\": "src/"
         }
     },
     "autoload-dev": {
@@ -76,7 +76,7 @@
         ],
         "php-compat": [
             "composer install",
-            "vendor/bin/phpcs basic-plugin.php src/ --standard=PHPCompatibilityWP --extensions=php --runtime-set testVersion 7.4-"
+            "vendor/bin/phpcs esl-connect-server.php src/ --standard=PHPCompatibilityWP --extensions=php --runtime-set testVersion 7.4-"
         ],
         "psalm-info": "vendor/bin/psalm --show-info=true",
         "psalm-secure": "vendor/bin/psalm --taint-analysis",
